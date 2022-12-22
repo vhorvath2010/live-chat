@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <h1>Live Chat</h1>
       <MessageDisplay />
-      {user ? <MessageInput /> : <UserSetupInput setUser={setUser} />}
+      {user ? <MessageInput user={user} /> : <UserSetupInput setUser={setUser} />}
     </div>
   );
 }
