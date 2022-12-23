@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project allows the user to host a live-chat application where, after entering their name, users are able to send and read messages to and from a Firebase Realtime Database. Messages are sent and updated in realtime.
 
 ## Available Scripts
 
